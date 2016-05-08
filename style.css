@@ -1,0 +1,92 @@
+﻿body {
+    background:#e1e1e1;
+    color:black;
+    font-family:Open Sans Condensed;
+}
+
+h1 {
+    font-size:50pt;
+    text-align:center;
+}
+
+h2 {
+    font-size:30pt;
+}
+
+table {
+    width:90%;
+    font-size:20pt;
+    background:#181818;
+    color:white;
+    
+}
+
+#quickLeaderboard table tr  {
+        text-align:center;
+        border:solid 1px #e1e1e1;
+    }
+
+    table th {
+        font-size:20pt;
+        text-align:center;
+        color:black;
+        background:#e30606;
+    }
+
+    table tr:nth-child(odd) {
+        background:#353535;
+        color:white;
+    }
+        table tr td, table tr th {
+            padding:10px 10px;
+            border:solid 1px white;
+        }
+
+.centered {
+    float: none;
+    margin: 0 auto;
+}
+
+#drivers {
+    font-size:20pt;
+}
+
+ul {
+    list-style:none;
+    width:100%;
+}
+
+    ul li .f1 {
+        margin-right:2%;
+        width:50px;
+        height:55px;
+    }
+
+    ul li .flag {
+        width:30px;
+        height:25px;
+    }
+
+    ul li b {
+        
+    }
+
+.green {
+    color:#39ca0b;
+}
+
+.orange {
+    color:#808080;
+}
+
+.red {
+    color:red;
+}
+
+#recordUl b, #recordUl i{  
+    margin-left:2%;
+}
+
+.winner {
+    font-size:25pt;
+}

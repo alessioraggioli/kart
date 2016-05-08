@@ -1,0 +1,295 @@
+﻿
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    /*background:url("../img/pattern2.jpg");
+    background-repeat: repeat;*/
+    background: rgb(18,18,18);
+    color: white;
+}
+
+.centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.rowHome {
+    color: white;
+}
+
+.rowNavBar {
+    position: relative;
+    top: 0;
+    border: solid 1px white;
+    background: black;
+    color: white;
+}
+
+.f1Icon {
+    width: 60px;
+    height: 60px;
+}
+
+.rowNavBar span {
+    list-style: none;
+    text-align: center;
+    font-size: 15pt;
+}
+
+#logoImg {
+    background: url("../img/logoProject2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    margin-top: 1%;
+}
+
+.homeTitle {
+    text-align: center;
+    font-size: 30pt;
+}
+
+    .homeTitle h1 {
+        font-family: Open Sans Condensed;
+    }
+
+    .homeTitle h4 {
+        margin-top: -10px;
+        font-family: Open Sans Condensed;
+    }
+
+.iconsRow div {
+    text-align: center;
+    margin-top: 2%;
+}
+
+    .iconsRow div i {
+        font-size: 50pt;
+    }
+
+    .iconsRow div span {
+        font-size: 15pt;
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+        .iconsRow div span .wzp {
+            font-size: 12pt;
+        }
+
+.rowNavBar .menuIcon {
+    display: none;
+}
+
+.rowNavBar a, .rowNavBar a:hover, .rowNavBar a:visited {
+    color:white;
+    text-decoration:none;
+}
+
+.rowTeam {
+    margin-top: 2%;
+    font-size: 40pt;
+    text-align: center;
+}
+
+    .rowTeam a, .rowTeam:hover, .rowTeam:visited {
+        color: white;
+    }
+
+        .rowTeam a i {
+            color: #db0909;
+        }
+
+.rowNavBar span {
+    transition: all 0.3s ease-in-out;
+    padding: 20px 0;
+    background: transparent;
+}
+
+    .rowNavBar span:hover {
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        background: #db0909;
+    }
+
+.rowTeamFluid {
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+    text-align:center;
+}
+
+    .rowTeamFluid span {
+        font-size:15pt;
+        font-family:Share Tech Mono;
+    }
+
+.rowTeamFluid h1 {
+    margin-top:2%;
+    font-size:40pt;
+    text-align:center;
+}
+
+.rowTeamFluid h3 {
+    font-size:30pt;
+    text-align:center;
+    font-family:Wire One;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+.flagContacts {
+    width:28px;
+    height:20px;
+}
+
+footer {
+    margin-top:2%;
+    background:rgb(18,18,18);
+    color:white;
+    font-weight:lighter;
+}
+
+footer i {
+    transition: background 0.5s;
+    font-size:20pt;
+    padding:20px;
+    margin-left:2%;
+    border: solid 1px black;
+    border-radius: 30px;
+    background: transparent;   
+}
+
+    footer i:hover {
+    transition: background 0.5s;
+    background: rgba(255, 255, 255, 0.85);
+    color:black;
+    cursor:pointer;
+    }
+
+    footer article {
+        font-size:15pt;
+        padding:20px;
+    }
+
+.divContacts span{
+    text-align:center;
+    font-size:15pt;
+    font-family:inherit;
+    font-weight:bold;
+}
+.copy {
+    font-family:Open Sans Condensed;
+    color:black;
+    font-weight:600;
+    font-size:13pt;
+}
+
+.copy:hover {
+    background:rgb(18,18,18);
+    color:white;
+    font-weight:100;
+    font-family:Open Sans Condensed;
+}
+
+.divImgStaff {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top:2%;
+    border-bottom:solid 10px black;
+    border-left:solid 10px black;
+    border-top:solid 4px black;
+    border-right:solid 4px black;
+    box-shadow: -5px 10px 193px -41px rgba(61,61,61,1);
+}
+
+#zeze {
+    background: url("../img/staff/zeze.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#dadox {
+    background: url("../img/staff/dadox.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    
+.f1Icon {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: -22px;
+    left: 0; 
+}
+
+.menuIcon {
+    cursor: pointer;
+}
+
+.leaguesRow {
+    position:relative;
+}
+
+.divPresentation{
+    background:black;
+    color:rgba(255, 255, 255, 0.75);
+    border-top:solid 1px black;
+    text-align:center;
+    cursor:pointer;
+    font-size:20pt;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+    .divPresentation:hover {
+        transition: all 0.3s ease-in-out;
+        color:black;
+        background:rgba(255, 255, 255, 0.75);       
+    }
+
+.rowSign {
+    margin-top:2%;
+}
+
+.rowSign input {
+    cursor:text;
+    width:80%;
+    margin-top:1px;
+    height:50px;
+    font-size:15pt;
+    text-align:center;
+    color:black;
+    display:block;
+}
+
+#newsContainer article {
+    text-align:center;
+}
+
+@media screen and (max-width:768px) {
+
+    .rowNavBar span {
+        display: none;
+    }
+
+    .rowNavBar .menuIcon {
+        display: block;
+    }
+
+    .navSmall {
+        display:block;  
+        height: 200px;
+        position: relative;
+        background: black;
+        color: white;
+        text-align: center;
+    }
+
+        .navSmall span {
+            display:block;
+        }
+}

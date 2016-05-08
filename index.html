@@ -1,52 +1,146 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type"
+        content="text/html; charset=utf-8" />
+    <meta author="Alessio Raggioli" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kart Timer 2016
+    </title>
+    <link href="css/bootstrap.css"
+        rel="stylesheet" />
+    <link href="css/bootstrap-theme.css"
+        rel="stylesheet" />
+    <link href="css/bootstrap.min.css"
+        rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="css/clipboard/dist/clipboard.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Abel|Dosis|Lato|Orbitron|Jura|Carme|Open+Sans+Condensed:300|Wire One|"
+        rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="col-xs-12">Kart Timer 2016
+            </h1>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="kart : Kart League 2016">
+            <div class="col-xs-12 col-md-4" id="drivers">
+                <h2>Drivers</h2>
+                <ul>
+                    <li><img src="ita.jpg" class="flag" /> <img src="f1Icon.png" class="f1" /> Alessio Raggioli <b>[RAG]</b></li>
+                    <li><img src="albania.svg" class="flag" /> <img src="f1Icon.png" class="f1" /> Elton Gjini <b>[EGJ]</b></li>
+                    <li><img src="albania.svg" class="flag" /> <img src="f1Icon.png" class="f1" /> Damiano Gjini <b>[DGJ]</b></li>
+                    <li><img src="moldavia.gif" class="flag" /> <img src="f1Icon.png" class="f1" /> Cristian Moisei <b>[MOI]</b></li>
+                    <li><img src="ita.jpg" class="flag" /> <img src="f1Icon.png" class="f1" /> Stefano Cargnel <b>[CAR]</b></li>
+                    <li><img src="ita.jpg" class="flag" /> <img src="f1Icon.png" class="f1" /> Samuel Donda <b>[DON]</b></li>
+                    <li><img src="ita.jpg" class="flag" /> <img src="f1Icon.png" class="f1" /> Alessio Baruzzo <b>[BAR]</b></li>
+                    <li><img src="ita.jpg" class="flag" /> <img src="f1Icon.png" class="f1" /> Domiziano Nappo <b>[NAP]</b></li>
+                </ul>
+            </div>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+             <div class="col-xs-12 col-md-4" id="drivers">
+                <h2>Records</h2>
+                <ul style="list-style-type:decimal-leading-zero" id="recordUl">
+                    <li><img src="f1Icon.png" class="f1" /> Alessio Raggioli <b id="bestTime">49.042</b> <i class="green" id="test">+0.000</i></li>
+                    <li><img src="f1Icon.png" class="f1" /> Damiano Gjini <b id="dgj">49.879</b> <i class="red">+0.837</i></li>
+                    <li><img src="f1Icon.png" class="f1" /> Elton Gjini <b>49.940</b> <i class="orange">+0.061</i></li>
+                    <li><img src="f1Icon.png" class="f1" /> Cristian Moisei <b>50.178</b> <i class="orange">+0.238</i></li></li>
+                    <li><img src="f1Icon.png" class="f1" /> Stefano Cargnel <b>50.727</b> <i class="red">+0.549</i></li></li>
+                    <li><img src="f1Icon.png" class="f1" /> Samuel Donda <b>52.343</b> <i class="red">+1.165</i></li></li>
+                    <li><img src="f1Icon.png" class="f1" /> Alessio Baruzzo <b>???</b> <i>???</i></li></li>
+                    <li><img src="f1Icon.png" class="f1" /> Domiziano Nappo <b>???</b> <i>???</i></li></li>
+                </ul>
+            </div>
 
-    <title>kart</title>
-  </head>
+            <div class="col-xs-12 col-md-4" id="quickLeaderboard">
+                <h2>Leaderboard</h2>
 
-  <body>
+                <table class="centered">
+                    <tr>
+                        <th>Driver
+                        </th>
+                        <th>Points
+                        </th>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/alessioraggioli/kart">View on GitHub</a>
+                    </tr>
+                    <tr>
+                        <td>RAG
+                        </td>
+                        <td>0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>EGJ
+                        </td>
+                        <td>0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DGJ
+                        </td>
+                        <td>0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MOI
+                        </td>
+                        <td>0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CAR
+                        </td>
+                        <td>0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>NAP
+                        </td>
+                        <td>0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DON
+                        </td>
+                        <td>0
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>BAR
+                        </td>
+                        <td>0
+                        </td>
+                    </tr>
+                </table>
 
-          <h1 id="project_title">kart</h1>
-          <h2 id="project_tagline">Kart League 2016</h2>
+                
+            </div>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/alessioraggioli/kart/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/alessioraggioli/kart/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+            <div class="col-xs-12 col-md-6 winner">
+                Vincitore 2015 <i class="fa fa-trophy" aria-hidden="true"></i><br />
+                <img src="albania.svg" width="100px" height="100px" style="margin-top:-50px;" />
+                <span style="font-size:60pt; line-height:100px;">Elton Gjini*</span><br />
+                <span style="font-size:13pt">[* sabotato kart a Raggio]</span>
+            </div>
+
+            <div class="col-xs-12 col-md-6 winner">
+                Scheda punteggi <i class="fa fa-list-ol" aria-hidden="true"></i><br />
+                1°  <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 10pt<br />
+                2°  <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 8pt<br />
+                3°  <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 6pt<br />
+                4°  <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 5pt<br />
+                5°  <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 4pt<br />
+                6°  <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 3pt<br />
+                7°  <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2pt<br />
+                8°  <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 1pt<br />
+                <span style="font-size:13pt">[Chi non partecipa prende 0 pt.]</span>
+            </div>
+           
+        </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>Kart League 2016</p>
-
-<h1>
-<a id="tutti-i-tempi-e-le-classifiche-di-ogni-gara" class="anchor" href="#tutti-i-tempi-e-le-classifiche-di-ogni-gara" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tutti i tempi e le classifiche di ogni gara</h1>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">kart maintained by <a href="https://github.com/alessioraggioli">alessioraggioli</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+</body>
 </html>
